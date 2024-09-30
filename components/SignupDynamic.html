@@ -1,0 +1,25 @@
+<div class="flex items-center flex-col justify-center mx-auto h-full w-full gap-2">
+    <div>
+            <!-- heading -->
+        <div class="flex justify-center mb-5"> Signup Dynamically </div>
+
+
+            <!-- Form content -->
+        <div class="flex flex-col gap-2 w-64">
+            <label for="usernamed">Username: </label>
+            <input id="usernamed" type="text" required placeholder="enter username" class="border-2">
+            <div id="error-usernamed" class="text-rose-800 text-sm"></div>
+
+            <label for="emaild">email : </label>
+            <input id="emaild" type="email" required placeholder="enter email" class="border-2">
+            <div id="error-emaild" class="text-rose-800 text-sm"></div>
+
+            <label for="passwordd">password: </label>
+            <input id="passwordd" type="password" required placeholder="enter password" class="border-2"> 
+            <div id="error-passwordd" class="text-rose-800 text-sm"></div>
+
+            <button id="submit-buttond" class="bg-cyan-500 rounded-md hover:border-2 active:opacity-70" onclick="onSubmitValidationDynamic()">submit</button>
+        </div>
+    </div>
+    
+</div>
